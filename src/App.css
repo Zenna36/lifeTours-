@@ -1,0 +1,255 @@
+* {box-sizing: border-box;}
+
+.sr-only {
+    display: none;
+}
+
+
+.topHeader {
+  background-color: rgb(83, 83, 92);
+}
+
+.icon-history {
+  padding-top: 8px;
+  width: 100px;
+}
+
+.mainName {
+  font-family: 'bitter';
+  font-weight: bolder;
+  color:rgb(6, 6, 6);
+}
+
+
+/* nav bar */
+.navBar {
+  font-family: 'dosis';
+  font-size: 27px;
+  align-items: center;
+}
+
+
+
+/* home page */
+.mainDesc {
+  padding: 250px 90px;
+  font-size: 3.0vh;
+  text-align: center;
+  font-family: 'varela round';
+  margin: 0px;
+}
+
+
+
+/* about page */
+.about {
+  background-color:rgb(228, 228, 233);
+}
+
+.aboutText {
+  padding: 120px 90px;
+  margin: 0;
+  font-size: 2.0vh;
+  font-family: 'varela round';
+  text-transform: lowercase;
+}
+
+.aboutHeader, #h2 {
+  text-align: center;
+  font-weight: bolder;
+  font-family: bitter;
+}
+
+.smallHeader {
+  font-family: bitter;
+  font-weight: bolder;
+  font-size: 27px;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+.divider {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+
+
+/* all tours page */
+.main {
+  background-color:rgb(228, 228, 233);
+}
+
+.click { 
+  text-decoration: none;
+}
+
+.cardInfo {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.cardMainHeader {
+  padding: 20px 0;
+  text-align: center;
+  font-size: 27px;
+  font-family: 'varela round'
+}
+
+.cardImage {
+  width: 350px;
+  border-radius: 15px;
+  max-width: 400px;
+  height: 470px;
+  text-align: center;
+}
+
+.author {
+  font-weight: bolder;
+}
+
+.tourName {
+  font-size: 22px;
+  font-style: italic;
+}
+
+.years {
+  font-weight:bolder;
+}
+
+.propTitles {
+  font-size: 17px;
+  font-weight: bolder;
+}
+
+.description {
+  font-style: italic;
+}
+
+.tourCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* outline: 2px solid red; */
+}
+
+.cardContainer {
+  max-width: 1350px;
+  margin: 0 auto;
+}
+
+.theCards {
+  width: 400px;
+  transition: 0.3s;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 20px 20px;
+  margin: 0px 20px 20px 20px;
+}
+
+.theCards:hover {
+  box-shadow: 0 16px 32px 10px rgba(111, 109, 109, 0.315)
+}
+
+.soloTours {
+  background-color:rgb(228, 228, 233);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.soloCard {
+  width: 400px;
+  transition: 0.3s;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 20px 20px;
+  margin: 0 auto;
+}
+
+.addToCart {
+  display: block;
+  background-color:rgb(215, 113, 113);
+  font-family: 'Varela Round';
+  color: rgb(239, 235, 235);
+  border-color: rgb(233, 227, 227);
+  padding: 5px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+/* solo page */
+.singleProducts {
+  margin: 0 auto;
+  background-color:rgb(228, 228, 233);
+  padding:20px 0;
+}
+
+/* form page */
+.contactHeader {
+  font-family: 'Varela Round';
+  margin: 0 auto;
+}
+
+.contactUsForm {
+  background-color:rgb(228, 228, 233);
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 90px;
+  background-color:rgb(224, 224, 235);
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.form input {
+  margin: 5px;
+  max-width: 500px;
+  font-style: italic;
+}
+
+.submitButton {
+  background-color:rgb(238, 64, 64);
+  border:rgb(138, 36, 36);
+  border-radius: 10px;
+  width: 200px;
+  margin: 0 auto;
+  font-family: 'Inter';
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+
+/* error page */
+.error {
+  background-color: rgb(255, 255, 255);
+}
+
+.error {
+  padding: 130px 70px 500px 70px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2.0vh;
+  font-family: 'varela round';
+  text-transform: lowercase;
+  background-color:rgb(228, 228, 233);
+}
+
+
+
+/* footer */
+.footer {
+  background-color: rgb(59, 59, 59);
+  height: 80px;
+  width: 100%;
+  font-family: 'Varela round';
+  flex-direction: row;
+  text-align: center;
+  color:rgb(255, 255, 255);
+}
